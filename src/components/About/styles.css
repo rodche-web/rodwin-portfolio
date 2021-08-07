@@ -1,0 +1,21 @@
+.about_container {
+    display: flex;
+    width: 60%;
+    margin: 100px auto;
+    justify-content: space-between;
+}
+
+.about_pic img {
+    width: 300px;
+}
+
+.about_text {
+    width: 300px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.about_text h1 {
+    margin-bottom: 10px;
+    text-align: center;
+}

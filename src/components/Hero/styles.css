@@ -1,0 +1,31 @@
+.hero_container {
+    height: 90vh;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(./hero-image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero_caption {
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 43%;
+    color: white;
+}
+
+.hero_btn {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px;
+    margin: 20px 0;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.hero_btn:hover {
+    background-color: rgba(255,255,255,0.5);
+}

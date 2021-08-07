@@ -1,0 +1,14 @@
+.contact_container {
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+    justify-content: space-between;
+}
+
+.contact_image img {
+    width: 300px;
+}
+
+.contact_form {
+    width: 500px;
+}

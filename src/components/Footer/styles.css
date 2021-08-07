@@ -1,0 +1,47 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    background-color: var(--main-color);
+}
+
+small {
+    text-align: center;
+    color: white;
+}
+
+.contact_icons {
+    display: flex;
+    width: 10%;
+    margin: 10px auto;
+    font-size: 1.5rem;
+    justify-content: space-around;
+}
+
+.contact_icons a {
+    color: white;
+}
+
+.nav_list_foot {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 30%;
+    margin: 10px auto;
+}
+
+.nav_item_foot {
+    display: inline-block;
+}
+
+.nav_item_foot a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav_item_foot a:hover {
+    text-decoration: underline;
+}
+
+
+

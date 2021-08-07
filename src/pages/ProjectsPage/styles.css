@@ -1,0 +1,9 @@
+.project_page h1 {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.project_page hr {
+    width: 80%;
+    margin: 10px auto;
+}
