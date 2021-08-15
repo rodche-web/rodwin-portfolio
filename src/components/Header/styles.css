@@ -21,12 +21,12 @@ header img {
     margin-left: 20px;
 }
 
-.nav_item a {
+.nav_link {
     text-decoration: none;
     color: white;
     font-size: 1.4rem;
 }
 
-.nav_item a:hover {
+.nav_link:hover {
     border-bottom: 3px solid white;
 }
