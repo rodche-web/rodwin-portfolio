@@ -10,7 +10,7 @@ const About = () => {
                     I'm a self-taught web developer skilled in the frontend framework React.
                     I'm a college graduate from the Polytechnic University of the Philippines 
                     with a Bachelor's degree in Electronics Engineering.
-                    I first started coding as a kid on my dad's Commodore 64 computer by copying
+                    I first started coding as a kid on a Commodore 64 computer by copying
                     BASIC codes from old computer magazines. Since then I became passionate in 
                     computing.
                 </p>
