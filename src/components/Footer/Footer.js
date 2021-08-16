@@ -1,4 +1,5 @@
 import {FaLinkedin, FaFacebookSquare, FaGithubSquare} from 'react-icons/fa/';
+import {Link} from 'react-router-dom';
 import './styles.css';
 
 const Footer = () => {
@@ -11,9 +12,9 @@ const Footer = () => {
             </div>
             <nav>
                 <ul className='nav_list_foot'>
-                    <li className='nav_item_foot'><a href='/'>Home</a></li>
-                    <li className='nav_item_foot'><a href='/projects'>Projects</a></li>
-                    <li className='nav_item_foot'><a href='/contact'>Contact</a></li>
+                    <li className='nav_item_foot'><Link className='footer-link' to='/'>Home</Link></li>
+                    <li className='nav_item_foot'><Link className='footer-link' to='/projects'>Projects</Link></li>
+                    <li className='nav_item_foot'><Link className='footer-link' to='/contact'>Contact</Link></li>
                 </ul>
             </nav>
             <small>©2021 Rodwin Espiritu</small>

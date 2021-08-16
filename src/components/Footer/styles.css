@@ -34,12 +34,12 @@ small {
     display: inline-block;
 }
 
-.nav_item_foot a {
+.footer-link {
     color: white;
     text-decoration: none;
 }
 
-.nav_item_foot a:hover {
+.footer-link:hover {
     text-decoration: underline;
 }
 
