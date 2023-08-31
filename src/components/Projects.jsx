@@ -1,7 +1,7 @@
 import {useState} from 'react'
 import aes from '../assets/images/aes-dashboard.png'
 import nfaps from '../assets/images/pshs-nfaps.png'
-import sis from '../assets/images/pshs-sis.png'
+import erp from '../assets/images/pshs-erp.png'
 import ProjectItem from './ProjectItem'
 import ModalCard from "./ModalCard";
 
@@ -9,15 +9,18 @@ const projectsList = [
     {
         imgUrl: aes,
         title: 'Automated Examination System',
-        description: 'An online platform for examination and certification during the time of COVID-19.'
-    },
-    {
-        imgUrl: sis,
-        title: 'Student Information System'
+        description: 'An online platform used by National Privacy Commission for examination and certification during the time of COVID-19.'
     },
     {
         imgUrl: nfaps,
-        title: 'New Freshmen Admissions Processing System'
+        title: 'New Freshmen Admissions Processing System',
+        description: 'An online platform that lets users apply for the Philippine Science High School National Competitive Examination.',
+        url: 'https://nce.pshs.edu.ph/'
+    },
+    {
+        imgUrl: erp,
+        title: 'Project Monitoring System',
+        description: 'A enterprise resource planning web application that enables management of projects and tracking of budget and expenditures.'
     }
 ]
 

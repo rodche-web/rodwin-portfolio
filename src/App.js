@@ -9,11 +9,9 @@ function App() {
     <div className="App bg-slate-50 dark:bg-black dark:text-white">
       <Header />
       <Hero />
-      <div className="w-full mx-auto mb-8">
-        <AboutMe />
-        <hr className="mx-auto bg-black dark:bg-white w-1/2"></hr>
-        <Projects />
-      </div>
+      <AboutMe />
+      <hr className="mx-auto bg-black dark:bg-white w-1/2"></hr>
+      <Projects />
       <Footer />
     </div>
   );

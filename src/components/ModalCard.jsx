@@ -1,4 +1,3 @@
-
 const ModalCard = ({ isOpen, onClose, data = {} }) => {
 
   const closeModal = () => {
@@ -41,19 +40,15 @@ const ModalCard = ({ isOpen, onClose, data = {} }) => {
             <p
               className="mt-2 text-gray-600 dark:text-white"
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              commodo convallis lectus, nec aliquam elit venenatis et.
+              {data && data.description}
             </p>
-            <button
-              className="mt-4 mr-5 py-2 px-4 rounded dark:bg-gray-700 dark:text-white bg-gray-200 text-gray-800"
+            {data && data.url && <a
+              href={data.url}
+              target="_blank"
+              className="mt-4 mr-5 py-2 px-4 rounded dark:bg-gray-700 dark:text-white bg-gray-200 text-gray-800" rel="noreferrer"
             >
               Website
-            </button>
-            <button
-              className="mt-4 mr-5 py-2 px-4 rounded dark:bg-gray-700 dark:text-white bg-gray-200 text-gray-800"
-            >
-              Github
-            </button>
+            </a>}
             <button
               onClick={closeModal}
               className="mt-4 mr-5 py-2 px-4 rounded dark:bg-gray-700 dark:text-white bg-gray-200 text-gray-800"
