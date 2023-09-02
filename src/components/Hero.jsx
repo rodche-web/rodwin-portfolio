@@ -10,7 +10,7 @@ const Hero = () => {
                   Hi! I'm Rodwin
                 </h2>
                 <p className="max-w-md text-2xl mt-4 text-center sm:text-left text-white">
-                    I am a software engineer with extensive experience of over 2 years.
+                    I am a front-end developer with extensive experience of over 2 years.
                 </p>
                 <p className="max-w-md text-2xl mt-4 text-center sm:text-left text-white">
                     My expertise is to create web sites and web apps.

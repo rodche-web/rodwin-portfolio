@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="flex flex-wrap justify-between">
                 <div className="w-full md:w-1/3 mb-8">
                     <h3 className="font-bold text-lg mb-4">About</h3>
-                    <p className="text-sm">This is a portfolio web page that showcases the projects of Rodwin Espiritu. It is built using the React.js framework.</p>
+                    <p className="text-sm">This is a portfolio web page that showcases the projects of Rodwin Espiritu. This is built using the React.js framework.</p>
                 </div>
                 <div className="w-full md:w-1/3 mb-8"></div>
                 <div className="w-full md:w-1/3 mb-8">
