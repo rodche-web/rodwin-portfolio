@@ -17,14 +17,14 @@ const AboutMe = () => {
           </p>
         </article>
         <article className="sm:w-1/2">
-          <h2 className="max-w-lg text-xl font-bold text-center sm:text-2xl sm:text-left text-slate-900 dark:text-white">
+          <h2 className="max-w-lg -ml-12 text-xl font-bold text-center sm:text-2xl sm:text-right text-slate-900 dark:text-white">
             Contact Me:
           </h2>
-          <p className="max-w-lg text-xl mt-4 text-center sm:text-left text-slate-900 dark:text-white">
-            email: rodwinchestermail@gmail.com
+          <p className="max-w-lg -ml-12 text-xl mt-4 text-center sm:text-right text-slate-900 dark:text-white">
+            Email: rodwinchestermail@gmail.com
           </p>
-          <p className="max-w-lg text-xl mt-4 text-center sm:text-left text-slate-900 dark:text-white">
-            mobile: +63 946 310 6332
+          <p className="max-w-lg -ml-12 text-xl mt-4 text-center sm:text-right text-slate-900 dark:text-white">
+            Mobile Number: 0946 310 6332
           </p>
         </article>
       </div>
