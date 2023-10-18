@@ -3,7 +3,7 @@ import aes from '../assets/images/aes-dashboard.png'
 import nfaps from '../assets/images/pshs-nfaps.png'
 import erp from '../assets/images/pshs-erp.png'
 import sis from '../assets/images/pshs-sis.png'
-import rgb from '../assets/images/rodwin-game-blog.png'
+// import rgb from '../assets/images/rodwin-game-blog.png'
 import ProjectItem from './ProjectItem'
 import ModalCard from "./ModalCard";
 
